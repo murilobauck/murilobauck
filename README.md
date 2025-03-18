@@ -21,7 +21,7 @@
 ### Main skills:
 ![HTML5](https://img.shields.io/badge/-html5-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
 ![CSS](https://img.shields.io/badge/-css-0D1117?style=for-the-badge&logo=css3&labelColor=0D1117)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
+![JavaScript](https://img.shields.io/badge/--0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![Java](https://img.icons8.com/?-Java-size=35&id=13679&format=png&color=0D1117)&nbsp;
  
 ### Tools:
