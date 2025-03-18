@@ -19,7 +19,7 @@
 </div> 
  
 ### Main skills:
-![Java](<i class="fa-brands fa-java"></i>)
+![Java](<i class="fa-brands fa-java"></i>)&nbsp;
 ![HTML5](https://img.shields.io/badge/-html5-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
 ![CSS](https://img.shields.io/badge/-css-0D1117?style=for-the-badge&logo=css3&labelColor=0D1117)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
