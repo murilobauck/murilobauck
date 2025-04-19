@@ -14,7 +14,7 @@
 </p>
 
 <div align="center">
-<a href="https://www.linkedin.com/in/murilo-bauck-515958306/" target="_blank"><img src="https://img.shields.io/badge/-linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white"</a>
+<a href="linkedin.com/in/murilobauck" target="_blank"><img src="https://img.shields.io/badge/-linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white"</a>
 </div> 
  
 ### Main skills:
