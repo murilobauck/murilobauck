@@ -14,8 +14,10 @@
 </p>
 
 <div align="center">
-<a href="linkedin.com/in/murilobauck" target="_blank"><img src="https://img.shields.io/badge/-linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white"</a>
-</div> 
+  <a href="https://linkedin.com/in/murilobauck" target="_blank">
+    <img src="https://img.shields.io/badge/-linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</div>
  
 ### Main skills:
 ![HTML5](https://img.shields.io/badge/-html5-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
