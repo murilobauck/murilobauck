@@ -2,8 +2,8 @@
   
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=D23BFA&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Murilo+Bauck+dos+Santos;I+study+systems+development+at+Bento+Quirino;Be+Welcome!+:%29)](https://git.io/typing-svg) 
 
-<div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=murilobauck&show_icons=true&count_private=true&hide_border=true&title_color=D23BFA&icon_color=D23BFA&text_color=c9d1d9&bg_color=0d1117" alt="murilobauck github stats" /> 
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=murilobauck&show_icons=true&count_private=true&hide_border=true&title_color=D23BFA&icon_color=D23BFA&text_color=c9d1d9&bg_color=0d1117" alt="murilobauck github stats" />
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=murilobauck&layout=compact&count_private=true&hide_border=true&title_color=D23BFA&text_color=D23BFA&bg_color=0d1117" />
 </div>
 
