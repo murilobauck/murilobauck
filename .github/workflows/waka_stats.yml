@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: '0 */6 * * *'
 
+permissions:
+  # Permite que a Action tenha acesso de escrita para atualizar o README
+  contents: write
+
 jobs:
   update-readme:
     name: Update README with WakaTime Stats
