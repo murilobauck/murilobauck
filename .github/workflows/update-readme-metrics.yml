@@ -26,8 +26,8 @@ jobs:
         run: echo "Dependencies handled by respective actions."
 
       - name: Generate GitHub Readme Stats (Main)
-        # CORREÇÃO AQUI: Mudando de @latest para @v5
-        uses: anuraghazra/github-readme-stats@v5 # Usando a versão estável v5
+        # CORREÇÃO AQUI: Mudando de @v5 para @master
+        uses: anuraghazra/github-readme-stats@master # Usando a branch master
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GH_TOKEN }}
@@ -41,8 +41,8 @@ jobs:
           output_file: assets/github-stats.svg # Salva a imagem aqui
 
       - name: Generate GitHub Readme Stats (Top Languages)
-        # CORREÇÃO AQUI: Mudando de @latest para @v5
-        uses: anuraghazra/github-readme-stats@v5 # Usando a versão estável v5
+        # CORREÇÃO AQUI: Mudando de @v5 para @master
+        uses: anuraghazra/github-readme-stats@master # Usando a branch master
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GH_TOKEN }}
