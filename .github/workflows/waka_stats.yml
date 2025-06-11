@@ -1,0 +1,29 @@
+# Nome do Workflow
+name: Waka Readme Stats
+
+on:
+  # Permite que você rode esta automação manualmente pela aba Actions
+  workflow_dispatch:
+  # Agenda a execução para rodar todo dia à meia-noite (UTC)
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  update-readme:
+    name: Update README with WakaTime Stats
+    runs-on: ubuntu-latest
+    steps:
+      # Esta é a Action da comunidade que faz todo o trabalho
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          # Pega a chave da API do cofre de Secrets que configuramos
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # Token especial do GitHub, necessário para a Action poder editar seu repositório
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+          # --- Opções de Customização (Você pode mudar "True" ou "False") ---
+          SHOW_OS: "False"           # Mostrar o Sistema Operacional
+          SHOW_PROJECTS: "False"      # Mostrar os projetos
+          SHOW_EDITORS: "True"        # Mostrar os editores de código
+          SHOW_TIMEZONE: "False"      # Mostrar o fuso horário
+          SHOW_LANGUAGE_PER_REPO: "False" # Mostrar linguagens por repositório
