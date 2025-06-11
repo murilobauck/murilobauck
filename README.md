@@ -1,9 +1,3 @@
-
-> *Não consegui buscar uma citação inspiradora hoje... :(*
-
-> *Não consegui buscar uma citação inspiradora hoje... :(*
-
-> *Não consegui buscar uma citação inspiradora hoje... :(*
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D23BFA&height=120&section=header"/>
   
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=D23BFA&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Murilo+Bauck+dos+Santos;I+study+systems+development+at+Bento+Quirino;Be+Welcome!+:%29)](https://git.io/typing-svg) 
