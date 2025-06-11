@@ -7,10 +7,6 @@
   <img width="41%" height="195px" src="https://github-readme-stats-eight-livid-60.vercel.app/api/top-langs/?username=murilobauck&layout=compact&count_private=true&hide_border=true&title_color=D23BFA&text_color=D23BFA&bg_color=0d1117" />
 </div>
 
----
-
-### 💡 Citação Inspiradora do Dia
-
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=murilobauck&theme=redical&line=D23BFA&hide_title=true&area=true&hide_border=true)](https://github-readme-activity-graph-tan.vercel.app/)
 
 <p align="center">
