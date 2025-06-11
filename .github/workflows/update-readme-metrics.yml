@@ -1,42 +1,51 @@
+# .github/workflows/update-readme-metrics.yml
+
 name: Update Readme Metrics
-'on':
-  workflow_dispatch: null
+
+on:
+  workflow_dispatch: # Permite que você execute o workflow manualmente
   schedule:
-    - cron: 0 0 * * *
+    - cron: '0 0 * * *' # Executa o workflow uma vez por dia à meia-noite (UTC)
+
 jobs:
   generate-metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Permissão necessária para o workflow commitar as imagens geradas
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: >-
-          Install dependencies for GitHub Readme Stats (if needed for local
-          generation)
+
+      - name: Install dependencies for GitHub Readme Stats (if needed for local generation)
         run: echo "Dependencies handled by respective actions."
+
       - name: Generate GitHub Readme Stats (Main)
-        uses: atharvadeokar/github-readme-stats@v2.2.0
+        # CORREÇÃO AQUI: Mudando o nome da ação e a versão
+        uses: anuraghazra/github-readme-stats@latest # Usando a ação oficial e a versão mais recente
         with:
-          username: '${{ github.repository_owner }}'
-          token: '${{ secrets.GH_TOKEN }}'
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GH_TOKEN }}
           count_private: true
           hide_border: true
           title_color: D23BFA
           icon_color: D23BFA
           text_color: c9d1d9
           bg_color: 0d1117
-          cache_seconds: 1800
-          output_file: assets/github-stats.svg
+          cache_seconds: 1800 # Cache de 30 minutos
+          output_file: assets/github-stats.svg # Salva a imagem aqui
+
       - name: Generate GitHub Readme Stats (Top Languages)
-        uses: atharvadeokar/github-readme-stats@v2.2.0
+        # CORREÇÃO AQUI: Mudando o nome da ação e a versão
+        uses: anuraghazra/github-readme-stats@latest # Usando a ação oficial e a versão mais recente
         with:
-          username: '${{ github.repository_owner }}'
-          token: '${{ secrets.GH_TOKEN }}'
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GH_TOKEN }}
           layout: compact
           count_private: true
           hide_border: true
@@ -44,25 +53,18 @@ jobs:
           text_color: D23BFA
           bg_color: 0d1117
           cache_seconds: 1800
-          output_file: assets/top-langs.svg
+          output_file: assets/top-langs.svg # Salva a imagem aqui
+
       - name: Generate GitHub Activity Graph
-        run: >-
-          echo "GitHub Activity Graph is typically served via Vercel or
-          self-hosted API."
+        run: echo "GitHub Activity Graph is typically served via Vercel or self-hosted API."
+
       - name: Generate GitHub Profile Trophy
-        run: >-
-          echo "GitHub Profile Trophy is typically served via Vercel or
-          self-hosted API."
+        run: echo "GitHub Profile Trophy is typically served via Vercel or self-hosted API."
+
       - name: Commit and push generated images
-        run: >
-          git config --global user.email
-          "41898282+github-actions[bot]@users.noreply.github.com"
-
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-
           git add assets/*.svg
-
-          git commit -m "Update GitHub Readme Stats and Top Languages" || echo
-          "No changes to commit"
-
+          git commit -m "Update GitHub Readme Stats and Top Languages" || echo "No changes to commit"
           git push
