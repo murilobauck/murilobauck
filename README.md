@@ -9,8 +9,6 @@
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=murilobauck&theme=redical&line=D23BFA&hide_title=true&area=true&hide_border=true)](https://github-readme-activity-graph-tan.vercel.app/)
 
-### 📊 Minhas Estatísticas de Programação
-
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=murilobauck&theme=dracula&row=2&no-bg=true&count_private=true&column=3&margin-w=15&margin-h=15" />
 </p>
