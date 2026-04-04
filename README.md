@@ -10,10 +10,6 @@
 
 [![Murilo's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=murilobauck&theme=redical&line=D23BFA&hide_title=true&area=true&hide_border=true&v=1)](https://github-readme-activity-graph-tan.vercel.app/)
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=murilobauck&theme=dracula&row=2&no-bg=true&count_private=true&column=3&margin-w=15&margin-h=15" />
-</p>
-
 <div align="center">
   <a href="https://www.linkedin.com/in/murilobauck" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
